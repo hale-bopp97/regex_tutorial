@@ -30,60 +30,60 @@ $ end of string
 \> end of word  
 
 ### Quantifiers
-* 0 or more
-+ 1 or more
-? 0 or 1 optional
-{3} Exactly 3
-{3,} 3 or more
-{2,5} 2,3,4, or 5
+* 0 or more  
++ 1 or more  
+? 0 or 1 optional  
+{3} Exactly 3  
+{3,} 3 or more  
+{2,5} 2,3,4, or 5  
 
 ### OR Operator
-| or..
+| or..  
 
 ### Character Classes
-\c control character
-\s whitespace
-\S not whitespace
-\d digit [0-9]
-\D not digit [^0-9]
-\w word [A-Za-z0-9]
-\w not word [^A-Za-z0-9]
+\c control character  
+\s whitespace  
+\S not whitespace  
+\d digit [0-9]  
+\D not digit [^0-9]  
+\w word [A-Za-z0-9]  
+\w not word [^A-Za-z0-9]  
 
 ### Flags (might also be know as modifiers)
-//g global match
-//i case insensitive
-//m multiple line
-//x allow comments and whitespace
-//e evaluate replacement
-//U ungreedy pattern
+//g global match  
+//i case insensitive  
+//m multiple line  
+//x allow comments and whitespace  
+//e evaluate replacement  
+//U ungreedy pattern  
 
 ### Grouping and Capturing
-. any character except newline (\n)
-(a|b) a or b
-(...) group
-(?:...) passive (non-capturing) group
-[abc] single character (a or b or c)
-[^abc] single character (not a or b or c)
-[a-q] single character range (a or b ...or q)
-[A-Z] single character range (A or B ...or Z)
-[0-9] single digit from 0 to 9
+. any character except newline (\n)  
+(a|b) a or b  
+(...) group  
+(?:...) passive (non-capturing) group  
+[abc] single character (a or b or c)  
+[^abc] single character (not a or b or c)  
+[a-q] single character range (a or b ...or q)  
+[A-Z] single character range (A or B ...or Z)  
+[0-9] single digit from 0 to 9  
 
 ### Bracket Expressions
-[] chars to match go inside. hyphens define ranges
+[] chars to match go inside. hyphens define ranges  
 
 ### Greedy and Lazy Match
-Greedy: as many as possible
-Lazy: as few as possible
+Greedy: as many as possible  
+Lazy: as few as possible  
 
 ### Boundaries
-\b word boundary
+\b word boundary  
 
 ### Back-references
-[-/] matches same text as previous
+[-/] matches same text as previous  
 
 ### Look-ahead and Look-behind
-?= lookahead assertion
-?<= lookbehind assertion
+?= lookahead assertion  
+?<= lookbehind assertion  
 
 ## Author
 
