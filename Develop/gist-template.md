@@ -30,8 +30,8 @@ $ end of string
 \> end of word  
 
 ### Quantifiers
-* 0 or more  
-+ 1 or more  
+\* 0 or more  
+\+ 1 or more  
 ? 0 or 1 optional  
 {3} Exactly 3  
 {3,} 3 or more  
