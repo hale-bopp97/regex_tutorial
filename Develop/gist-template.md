@@ -2,7 +2,7 @@
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regular Expressions, or regex for short, are a character squence that determins a searching patern for text. They are often used in text to find, or even find and replace. They are also useful to validate inputs. Conceptually regular expressions have been around since the 1950's, but they began being used on Unix platforms in the 80's.
 
 ## Table of Contents
 
