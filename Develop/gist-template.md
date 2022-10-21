@@ -21,13 +21,13 @@ Regular Expressions, or regex for short, are a character squence that determins 
 ## Regex Components
 
 ### Anchors
-^ beginning of string or line
-$ end of string
-\A start of string
-\Z end of string
-\b word boundary
-\< start of word
-\> end of word
+^ beginning of string or line  
+$ end of string  
+\A start of string  
+\Z end of string  
+\b word boundary  
+\< start of word  
+\> end of word  
 
 ### Quantifiers
 * 0 or more
